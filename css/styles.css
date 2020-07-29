@@ -1,0 +1,103 @@
+/*  COLORES */
+/* Gris #1b2127 */
+/* Gris claro #fafafa */
+/* Gris obscuro #626262 */
+/* Celeste 026fff */
+body {
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  line-height: 150%;
+}
+/* Globales */
+.container {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+/* header */
+.header {
+  background-color: #626262;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.logo {
+  margin: 0;
+}
+.logo img {
+  width: 90px;
+  height: 90px;
+}
+.header ul {
+  /* .header ol hereda de .menu */
+  display: flex;
+  height: inherit;
+}
+
+.header ul li {
+  /* .header ol li hereda de .header ol */
+  height: inherit;
+}
+
+.header a {
+  /* .header a hereda de .header ol li */
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu {
+  /* .menu hereda de .header */
+  height: inherit;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+/* Principal */
+.main {
+  /* display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 2px; */
+  text-align: center;
+  color: white;
+  background-color: #1b2127;
+  padding: 50px;
+}
+.main span {
+  color: #026fff;
+}
+.main-image img {
+  width: 200px;
+  /* height: 200px; */
+  border: 10px solid #f2aa0f;
+  border-radius: 1000px;
+}
+/* Portafolio */
+.portfolio {
+  background-color: #fafafa;
+}
+.project {
+  border: 1px solid black;
+  border-radius: 10px;
+}
